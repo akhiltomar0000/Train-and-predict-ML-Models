@@ -1,11 +1,10 @@
-# Train-and-predict-ML-Models
 # Machine Learning Models on Titanic Dataset
-Project Overview
+# Project Overview
 
 This project demonstrates an end-to-end machine learning workflow using the famous Titanic dataset.
 Multiple classification algorithms are implemented and evaluated to predict passenger survival.
 
-The notebook focuses on:
+# The notebook focuses on:
 
 Data preprocessing
 
@@ -17,7 +16,7 @@ Model evaluation
 
 Comparison of different ML algorithms
 
-Dataset
+# Dataset
 
 Source: Seaborn built-in Titanic dataset
 
@@ -25,7 +24,7 @@ Target variable: survived
 
 Problem type: Binary Classification
 
-Libraries Used
+# Libraries Used
 
 numpy
 
@@ -37,14 +36,14 @@ matplotlib
 
 scikit-learn
 
-Project Workflow
-1. Data Loading
+# Project Workflow
+#1. Data Loading
 
 The dataset is loaded using Seaborn:
 
 sns.load_dataset("titanic")
 
-2. Data Cleaning & Preprocessing
+#2. Data Cleaning & Preprocessing
 
 Dropped irrelevant columns:
 
@@ -64,13 +63,13 @@ embarked
 
 Converted dataset to integer format
 
-3. Feature Selection
+#3. Feature Selection
 
 Features (X): All columns except survived
 
 Target (y): survived
 
-4. Train-Test Split
+#4. Train-Test Split
 
 80% training data
 
@@ -78,7 +77,7 @@ Target (y): survived
 
 random_state = 42
 
-5. Models Implemented
+#5. Models Implemented
 
 The following machine learning models were trained and evaluated:
 
@@ -116,7 +115,7 @@ Works effectively in high-dimensional space
 
 Applied StandardScaler
 
-Used for:
+#Used for:
 
 KNN
 
@@ -140,7 +139,7 @@ Recall
 
 F1-score
 
-Key Learnings
+# Key Learnings
 
 Machine learning models require numerical input
 
@@ -152,7 +151,7 @@ Different models perform differently on the same dataset
 
 Evaluation metrics are crucial beyond accuracy
 
-Conclusion
+# Conclusion
 
 This notebook serves as a foundational ML project covering:
 
